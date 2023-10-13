@@ -1,3 +1,5 @@
+require ( './helpers.js' );
+
 describe("index.html", () => {
   it("has valid input and output elements", () => {
     const form = document.querySelector('form')
